@@ -1,0 +1,33 @@
+  /* +========+ Responsive media Query +===========+ for all 5 type of device */
+  
+    /* for Big tablet */
+    @media (mix-width:920px){
+  
+    }
+    /* for Normal tablet */
+    @media (mix-width:700px){
+  
+    }
+    /* for small tablet */
+    @media (max-width:540px){
+      
+    }
+    /* for Normal phone  */
+    @media  (max-width:440px) {
+      #Testimonial_section .Testimonial_Section_Headline h6{
+        font-size: 7vw;
+      }
+      #Testimonial_section .Testimonial_Section_Headline img{
+        margin: 0.5rem auto;
+      }
+      /* slider */
+      #Testimonial_section .Testimonial_slider_container {
+        min-width: 62%;
+        max-width: 100vw;
+        min-height: 50vh;
+      }
+    }
+    /*  /* for  small phone  Mobile S -320px  */
+    /* @media (max-width:320px) {
+  
+    } */
